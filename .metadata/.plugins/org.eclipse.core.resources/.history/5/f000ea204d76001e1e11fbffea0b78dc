@@ -1,0 +1,15 @@
+package exercise_refactored;
+
+public interface TimedDoor {
+	
+	void lock();
+
+    void unlock();
+
+    void open();
+
+    void close();
+
+    void timeOutCallback() throws Exception;
+
+}

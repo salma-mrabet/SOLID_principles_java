@@ -1,0 +1,28 @@
+package exerciseRefacored;
+
+public class SpaceSlot extends Resource {
+
+	@Override
+	public int allocate() {
+		// TODO Auto-generated method stub
+		findFreeSpaceSlot();
+		return 0;
+	}
+
+	@Override
+	public void free() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	private int findFreeSpaceSlot()
+    {
+        return super.resourceId;
+    }
+	
+	private void markSpaceSlotFree(int resourceId)
+    {
+		
+    }
+
+}
